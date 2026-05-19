@@ -1,0 +1,39 @@
+{
+  "telegram": {
+    "bot_token": "",
+    "chat_id": ""
+  },
+  "scan": {
+    "interval_seconds": 60,
+    "kline_interval": "1m",
+    "kline_limit": 60,
+    "max_symbols": 150,
+    "min_quote_volume_24h_usdt": 1000000,
+    "min_last_price_usdt": 1e-08,
+    "cooldown_minutes_per_symbol": 30
+  },
+  "signals": {
+    "pct_1m": 1.5,
+    "pct_3m": 2.5,
+    "pct_5m": 4.0,
+    "volume_ratio": 2.5,
+    "min_current_quote_volume_usdt": 50000
+  },
+  "lists": {
+    "only_symbols": [],
+    "exclude_symbols": [
+      "USDCUSDT",
+      "FDUSDUSDT",
+      "TUSDUSDT",
+      "BUSDUSDT",
+      "DAIUSDT",
+      "EURUSDT",
+      "TRYUSDT",
+      "BRLUSDT",
+      "AEURUSDT"
+    ]
+  },
+  "risk": {
+    "message": "Alerte informative uniquement. Ce logiciel ne donne pas un conseil financier et ne passe aucun ordre."
+  }
+}
