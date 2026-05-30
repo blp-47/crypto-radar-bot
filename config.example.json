@@ -1,0 +1,55 @@
+{
+  "telegram": {
+    "bot_token": "",
+    "chat_id": ""
+  },
+  "scan": {
+    "interval_seconds": 60,
+    "chart_interval": "1m",
+    "chart_range": "1d",
+    "include_prepost": true,
+    "max_symbols": 50,
+    "cooldown_minutes_per_symbol": 45,
+    "max_last_bar_age_minutes": 30
+  },
+  "market": {
+    "allow_premarket": true,
+    "allow_regular": true,
+    "allow_afterhours": false,
+    "skip_weekends": true
+  },
+  "signals": {
+    "min_price_usd": 1.0,
+    "pct_1m": 0.8,
+    "pct_5m": 2.0,
+    "pct_15m": 4.0,
+    "pct_30m": 7.0,
+    "gap_prev_close_pct": 8.0,
+    "volume_ratio": 3.0,
+    "min_bar_volume_shares": 10000
+  },
+  "lists": {
+    "only_symbols": [
+      "REPL",
+      "NVDA",
+      "AMD",
+      "TSLA",
+      "PLTR",
+      "SMCI",
+      "SOUN",
+      "GME",
+      "AMC",
+      "AAPL",
+      "MSFT",
+      "META",
+      "GOOGL",
+      "AMZN",
+      "AVGO",
+      "MSTR"
+    ],
+    "exclude_symbols": []
+  },
+  "risk": {
+    "message": "Alerte informative uniquement. Ce logiciel ne donne pas un conseil financier et ne passe aucun ordre."
+  }
+}
