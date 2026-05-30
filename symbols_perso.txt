@@ -1,5 +1,0 @@
-# Ajoute ici tes actions favorites, une par ligne.
-# Exemple :
-# HOOD
-# IONQ
-# RKLB
