@@ -1,0 +1,89 @@
+{
+  "telegram": {
+    "bot_token": "",
+    "chat_id": ""
+  },
+  "scan": {
+    "interval_seconds": 60,
+    "large_universe_mode": true,
+    "quote_batch_size": 120,
+    "pause_between_quote_batches_seconds": 0.2,
+    "max_candidate_charts": 260,
+    "always_chart_watchlist": true,
+    "max_priority_charts": 80,
+    "chart_interval": "1m",
+    "chart_range": "1d",
+    "include_prepost": true,
+    "pause_between_chart_requests_seconds": 0.05,
+    "cooldown_minutes_per_symbol": 30,
+    "max_last_bar_age_minutes": 90,
+    "refresh_symbol_universe_minutes": 360
+  },
+  "market": {
+    "allow_premarket": true,
+    "allow_regular": true,
+    "allow_afterhours": true,
+    "skip_weekends": true
+  },
+  "signals": {
+    "min_price_usd": 0.05,
+    "min_price_eur": 0.5,
+    "penny_stock_price_usd": 1.0,
+    "pct_1m": 1.0,
+    "pct_5m": 2.5,
+    "pct_15m": 5.0,
+    "pct_30m": 8.0,
+    "gap_prev_close_pct": 7.0,
+    "penny_gap_prev_close_pct": 9.0,
+    "high_gap_no_volume_pct": 14.0,
+    "pct_from_session_low": 8.0,
+    "penny_pct_from_session_low": 12.0,
+    "breakout_pct": 1.5,
+    "volume_ratio": 2.2,
+    "min_bar_volume_shares": 8000,
+    "penny_min_bar_volume_shares": 20000,
+    "prefilter_gap_pct": 3.0,
+    "prefilter_penny_gap_pct": 5.0,
+    "prefilter_from_day_low_pct": 7.0,
+    "prefilter_min_day_volume_shares": 15000,
+    "prefilter_day_volume_vs_avg": 0.03,
+    "prefilter_min_abs_change_pct_for_volume": 1.5,
+    "quote_gap_alert_pct": 7.0,
+    "quote_penny_gap_alert_pct": 9.0,
+    "quote_from_day_low_alert_pct": 10.0,
+    "quote_volume_alert_ratio": 0.15
+  },
+  "lists": {
+    "only_symbols": [
+      "OPTU",
+      "REPL",
+      "NVDA",
+      "AMD",
+      "TSLA",
+      "PLTR",
+      "SMCI",
+      "SOUN",
+      "GME",
+      "AMC",
+      "AAPL",
+      "MSFT",
+      "META",
+      "GOOGL",
+      "AMZN",
+      "AVGO",
+      "MSTR"
+    ],
+    "include_cac40": true,
+    "include_us_all": true,
+    "include_us_etfs": false,
+    "include_us_warrants_units_rights": false,
+    "max_us_symbols": 0,
+    "symbol_files": [
+      "symbols_perso.txt"
+    ],
+    "exclude_symbols": []
+  },
+  "risk": {
+    "message": "Alerte informative uniquement. Ce logiciel ne donne pas un conseil financier et ne passe aucun ordre."
+  }
+}
